@@ -1,16 +1,18 @@
 *{
 	margin: 0%; /*margenes estandar	*/
 	padding: 0%; /*relleno interno de la caja la engorda*/
-	font-family: arial; /*esta es la fuente de la letra	*/
 }
 
-aside{
-    border:1px solid gray;
-    border-radius:5px;
+aside {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #F0B429;
 }
 section {
     border: 1px solid gray;
     border-radius: 5px;
+    background-color: #005883;
+    font-family: 'Angsana New','Franklin Gothic Book','Franklin Gothic Heavy';
 }
 
 .referencia{
@@ -23,8 +25,9 @@ iframe{
     height:320px;
 }
 .logo{
-	background:#76D7C4 ;/*color del fondo	*/
-
+	/*background:#76D7C4 ;color del fondo	*/
+    background:white;
+    border-color:gray;
 }
 .logounad{	
 	height: 11%; /*altura	*/
@@ -67,8 +70,6 @@ iframe{
 	height: 315px;
 	
 }
-
-
 			.header {
 				margin:auto;
 				width:500px;
